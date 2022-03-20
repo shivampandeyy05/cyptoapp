@@ -23,7 +23,7 @@
 
 .nav-menu {
     display: flex;
-    right: 0;
+    right: 0%;
 }
 
 .nav-menu li {
@@ -42,13 +42,13 @@
 }
 
 
-@media screen and (max-width:1240px) {
+@media screen and (max-width: 1240px) {
     .hamburger {
         display: flex;
     }
 
     .nav-menu {
-        position: absolute;
+        position: fixed;
         flex-direction: column;
         justify-content: start;
         top: 90px;
